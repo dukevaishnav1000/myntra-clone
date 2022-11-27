@@ -1,0 +1,80 @@
+.card{
+    min-height:25vh;
+    width:auto;
+    margin:1vmax;
+    padding-top: 0;
+}
+
+.shirtImage{
+    max-height:25vh;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.shirtName{
+    font-size: .8rem;
+    width: 100%;
+    text-align: justify;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.priceContainer{
+margin-bottom: .5rem;
+} 
+
+.mrp{
+    font-weight: 400;
+    color:grey;
+    margin-left:.1rem;
+    text-decoration: line-through;
+
+}
+
+.shirtPrice{
+font-size: larger;
+font-weight: 600;
+}
+
+
+.buttonList{
+display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+cursor:pointer;
+margin-bottom: .5rem;
+}
+
+.SizeButton{
+display: flex;
+align-items: center;
+justify-content: center;
+height:2rem;
+width:2rem;
+margin-left: 5px;
+margin-right: 5px;
+border-radius:50%;
+
+/* border: 1px solid crimson; */
+}
+.SizeButton .btn-outline-danger{
+    border:none;
+    font-weight: 800;
+    color:black;
+    
+}
+/* .SizeButton :hover,.SizeButton :active{
+    background-color: blue;
+} */
+
+.cartBtn,.wishBtn{
+    height:5vh;
+    width:auto;
+    font-size: smaller;
+}

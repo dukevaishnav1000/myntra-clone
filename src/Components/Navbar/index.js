@@ -63,19 +63,19 @@ return(
     <div className="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
       <ul className="navbar-nav mb-2 ms-lg-5 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Men</a>
+          <a className="nav-link active " aria-current="page" href="#">Men</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Women</a>
+          <a className="nav-link " href="#">Women</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Kids</a>
+          <a className="nav-link " href="#">Kids</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Home & living</a>
+          <a className="nav-link " href="#">Home & living</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">offers</a>
+          <a className="nav-link " href="#">offers</a>
         </li>
         <li className="nav-item ms-lg-5">
           <form className="d-flex" role="search">
